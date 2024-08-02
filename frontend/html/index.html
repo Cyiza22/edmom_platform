@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdMom Platform Dashboard</title>
+    <link rel="stylesheet" href="edmom.css">
+    <script src="dashboard.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">EdMom Platform</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h1>Welcome, <span id="user-name">[User Name]</span>!</h1>
+        <div class="cards">
+            <div class="card">
+                <h2>My Courses</h2>
+                <p>View and manage your enrolled courses.</p>
+                <button onclick="location.href='courses.html'">Go to Courses</button>
+            </div>
+            <div class="card">
+                <h2>Support Networks</h2>
+                <p>Connect with peers and professionals for support.</p>
+                <button onclick="location.href='support.html'">Access Support</button>
+            </div>
+            <div class="card">
+                <h2>Resources</h2>
+                <p>Find childcare and healthcare resources.</p>
+                <button onclick="location.href='resources.html'">View Resources</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 EdMom Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
