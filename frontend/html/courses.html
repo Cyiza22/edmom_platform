@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EdMom Platform Courses</title>
+    <link rel="stylesheet" href="edmom.css">
+    <script src="courses.js" defer></script>
+    <script src="Enrollment.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">EdMom Platform</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h1>Available Courses</h1>
+        <div class="cards">
+            <div class="card">
+                <h2>Lycee Notre Dame de Citeaux</h2>
+                <p>Level 1 to Level 6</p>
+                <button onclick="enroll('Lycee Notre Dame de Citeaux')">Enroll</button>
+            </div>
+            <div class="card">
+                <h2>Lycee de Kigali</h2>
+                <p>Level 1 to Level 6</p>
+                <button onclick="enroll('Lycee de Kigali')">Enroll</button>
+            </div>
+            <div class="card">
+                <h2>Saint Andre</h2>
+                <p>Level 1 to Level 6</p>
+                <button onclick="enroll('Saint Andre')">Enroll</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 EdMom Platform. All rights reserved.</p>
+    </footer>
+</body>
+</html>
